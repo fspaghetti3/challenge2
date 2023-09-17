@@ -1,0 +1,322 @@
+* {
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+a {
+   text-decoration: none;
+}
+
+header {
+    
+    display: block;
+    background-color: #017947;
+    display: block;
+    color: white;
+    text-shadow: 1px 1px 8px black;
+    border-bottom: 5px solid black;
+    border-top: 0.1px solid black;
+
+}
+
+h1, .welcome, ul, .button {
+    display: table;
+    background-color: #017947;
+    
+}
+
+body {
+
+    background-image: url("images/icefields.jpg");
+    background-size: cover;
+
+
+
+}
+
+
+
+.button > a {
+    display: block;
+    background-color: #017947;
+    text-align: right;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-left: 2px;
+    font-size: 150%;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+#intro {
+    display: block;
+    margin: 100px;
+    padding: 5px;
+    background-color: #017947;
+    border-radius: 100px;
+    border: 5px solid black;
+}
+
+
+#about {
+    display: table;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 3px 5px 3px 5px;
+    font-size: 300%;
+    background-color: white;
+    text-decoration: none;
+
+} 
+
+#about, a {
+
+    text-decoration: none;
+    color:black
+
+
+
+
+}
+
+
+#info {
+    display: table;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.interests {
+    display: table;
+    background-color: white;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 30px;
+    font-size: 225%;    
+    border-radius: 10px;
+
+
+}
+
+.interests-list {
+    display: table; 
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    list-style-type: none;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.work {
+    display: table; 
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 150%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.work-coding {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    height: auto;
+    transform: scale(1);
+    transition: height 0.5s ease, transform .5s ease;
+    overflow: hidden;
+
+}
+
+.work-coding:hover {
+ 
+    height:auto;
+    transform: scale(1.05);   
+    box-shadow: 0px 0px 20px 10px #01ff95;
+
+}
+
+.expand-coding {
+
+    display: none;
+
+}
+.work-coding:hover .expand-coding  {
+
+    display: table;
+
+    animation: fadeIn 0.5s ease;
+
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.work-automotive {
+    display: table;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 50px;
+    background-image: url("images/ezgif-5-bb18630d7c.gif");
+    background-size: cover;
+    background-position: center ;
+    height: auto;
+    transform: scale(1);
+    transition: height 0.5s ease, transform .5s ease;
+    overflow: hidden;
+
+}
+
+.work-automotive:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 10px #01ff95;
+
+}
+
+.work-automotive-text > h4 {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.work-automotive-text > p {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+
+.work-restoration {
+ 
+    display: table;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 50px;
+    background-image: url("images/ezgif-5-bb18630d7c.gif");
+    background-size: cover;
+    background-position: center ;
+    height: auto;
+    transform: scale(1);
+    transition: height 0.5s ease, transform .5s ease;
+    overflow: hidden;
+
+    
+}
+
+.work-restoration:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 10px #01ff95;
+
+}
+
+.work-restoration-text > h4 {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.work-restoration-text > p {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+.spacer {
+    color:#017947;
+    text-align: center;
+}
+
+.row {
+
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    flex: 33.33%;
+
+}
+
+footer {
+
+    display: table;
+    text-align: left;
+    background-color: #017947;
+    border-top: 4px solid #000000;
+
+}
+
+.form {
+
+    display:table;
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+
+
+
+}
+
+.socials {
+
+    background-color: white;
+
+}
