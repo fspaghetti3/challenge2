@@ -66,6 +66,7 @@ nav a {
 
     background-color: var(--green);
     border-bottom: 5px solid black;
+    box-shadow: 2px 2px 10px #000000;
  
 }
 
@@ -93,6 +94,7 @@ nav a {
     background-color: var(--green);
     border-radius: 100px;
     border: 5px solid black;
+    box-shadow: 2px 2px 10px #000000;
 }
 
 #about {
@@ -104,6 +106,7 @@ nav a {
     background-color: white;
     width: fit-content;
     margin: 0 auto;
+    box-shadow: 2px 2px 10px #000000;
 }
 
 #about2 {
@@ -114,6 +117,7 @@ nav a {
     padding: 5px;
     width: fit-content;
     margin: 0 auto;
+    box-shadow: 2px 2px 10px #000000;
 
 }
 
@@ -185,6 +189,7 @@ nav a {
     border: 2px solid black;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000;
 }
 
 .interests > h3 {
@@ -259,6 +264,7 @@ nav a {
     padding: 6px;
     font-size: 150%;
     text-align: center;
+    box-shadow: 2px 2px 10px#000000;
 }
 
 .work-coding, .work-automotive, .work-comp {
@@ -275,8 +281,9 @@ nav a {
     transition: transform 0.5s ease, box-shadow 0.5s ease;
     overflow: hidden;
     text-align: center;
-    margin: 5px 10px 30px 10px;
+    margin: 10px 10px 30px 10px;
     position: relative;
+    box-shadow: 2px 2px 10px#000000;
 }
 
 .work-coding > h4, .work-coding > p, .work-automotive > h4, .work-automotive > p, .work-comp > h4, .work-comp > p {
