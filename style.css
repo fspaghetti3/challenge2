@@ -23,7 +23,7 @@ a {
 }
 
 body {
-    background: url("/images/icefields.jpg") center/cover;
+    background: url("images/icefields.jpg") center/cover;
 }
 
 header {
@@ -291,15 +291,15 @@ nav a {
 }
 
 .work-coding {
-    background: url("/images/waterfall.gif") center/cover;
+    background: url("images/waterfall.gif") center/cover;
 }
 
 .work-automotive {
-    background: url("/images/ezgif-5-bb18630d7c.gif") center/cover;
+    background: url("images/ezgif-5-bb18630d7c.gif") center/cover;
 }
 
 .work-comp {
-    background: url("/images/flyingfortyninety.gif") center/cover;
+    background: url("images/flyingfortyninety.gif") center/cover;
 }
 
 #coding-desc {
